@@ -1,0 +1,124 @@
+1.Write a Python program that reads a text file and counts the number of occurrences of each word in the file. The programshould output the words and their counts in a dictionary.
+
+2.Write a program that:
+Accepts a dictionary with student names as keys and their scores as values.
+Computes the average score of the class.
+Outputs the names of students who scored above average.
+
+3.Student Performance Tracker
+Problem Statement:
+Write a program to manage student data and analyze their performance.
+- Use a file to store student data (name, marks in 3 subjects).
+- Read the data from the file into a dictionary where the key is the student's name and the value is a tuple of their marks.
+- Calculate and display the average marks for each student using a loop.
+- Identify students scoring above 75% and write their names to a new file.
+- Allow the user to add new student data using input and update the file accordingly.
+
+4.Unique Word Analyzer
+Problem Statement:
+Write a program that:
+- Reads a paragraph from a text file.
+- Splits the paragraph into words and converts them to lowercase.
+- Uses a set to find unique words and counts their frequency using a dictionary.
+- Prints the top 3 most frequent words along with their counts.
+- Saves the sorted dictionary (by frequency) into another file in a readable format.
+
+5.Inventory Management System
+Problem Statement:
+Create an inventory management system for a small shop.
+- Use a dictionary to store items as keys and their details (price, quantity) as values stored in tuples.
+- Write a function to add new items, update quantities, and check availability.
+- Allow the user to search for an item and display its details.
+- Use a set to track which items are out of stock.
+- Save the updated inventory to a file after each operation.
+
+6.Library Book Management
+Problem Statement:
+Create a library management program that:
+- Reads data about books (title, author, status: available/borrowed) from a file and stores it in a dictionary.
+- Allows the user to:
+  - Borrow a book (update its status to "borrowed").
+  - Return a book (update its status to "available").
+  - Add a new book to the system.
+- Use a set to track borrowed books.
+- Write all updates back to the file.
+
+7.Employee Time Tracker
+Problem Statement:
+Write a program to track employees' login/logout activities.
+- Store employee data (name, login time, logout time) in a file.
+- Use a dictionary where keys are employee names and values are tuples of login and logout times.
+- Write a function to calculate the total time spent at work for each employee.
+- Identify employees who worked more than 8 hours and write their names to a separate file.
+- Allow the user to input new records or search for a specific employee's work duration.
+
+8.Movie Ticket Booking System
+Problem Statement:
+Create a program to manage a movie ticket booking system.
+- Use a dictionary where the keys are movie names and values are tuples containing available seats and ticket price.
+- Write a function to book tickets, update available seats, and calculate the total price.
+- Allow the user to view available movies and their details.
+- Save the updated movie data to a file after each booking.
+
+9.Password Strength Checker
+Problem Statement:
+Write a program to check the strength of a password.
+- Take a password as input and check its length, use of uppercase, lowercase, numbers, and special characters.
+- Assign a strength level (Weak, Moderate, Strong) based on these criteria.
+- Save the password and its strength to a file.
+
+10.Sales Data Analyzer
+Problem Statement:
+Create a program to analyze monthly sales data.
+- Read sales data (product name, quantity sold, price) from a file and store it in a dictionary.
+- Calculate the total sales for each product and identify the highest-selling product.
+- Save the analysis to a new file.
+
+11.Contact Management System
+Problem Statement:
+Write a program to manage a contact book.
+- Store contacts in a dictionary where the key is the contact name and the value is a tuple containing the phone number and email.
+- Allow the user to add, delete, and search for contacts.
+- Save the updated contact list to a file.
+
+12.Exam Results Processing
+Problem Statement:
+Create a program to process exam results.
+- Store student data (name, marks in 5 subjects) in a dictionary.
+- Calculate the total marks, average marks, and grade for each student.
+- Identify and display the topper(s) and save the result analysis to a file.
+
+13.E-commerce Cart System
+Problem Statement:
+Create a program to manage an e-commerce shopping cart.
+- Use a dictionary to store products as keys and their details (price, quantity) as tuples.
+- Write functions to add items to the cart, remove items, and calculate the total bill.
+- Save the cart data to a file.
+
+14.Weather Data Logger
+Problem Statement:
+Write a program to log daily weather data.
+- Store weather details (date, temperature, humidity) in a dictionary where the key is the date.
+- Write functions to add new entries, retrieve data for a specific date, and calculate the average temperature for a month.
+- Save the weather log to a file.
+
+15.Employee Salary Management
+Problem Statement:
+Create a program to manage employee salaries.
+- Store employee data (name, salary, department) in a dictionary.
+- Write functions to calculate bonuses for employees, update salaries, and display department-wise salary details.
+- Save the updated data to a file.
+
+16.Budget Tracker
+Problem Statement:
+Write a program to track monthly expenses.
+- Use a dictionary to store expense categories as keys and amounts as values.
+- Allow the user to add, update, and delete expenses.
+- Calculate the total expenses and save the data to a file.
+
+17. Student Attendance System
+Problem Statement:
+Create a program to manage student attendance.
+- Store attendance data (student name, dates attended) in a dictionary where the value is a set of dates.
+- Write functions to mark attendance, retrieve attendance records for a student, and calculate overall attendance percentage.
+- Save the updated attendance data to a file.
