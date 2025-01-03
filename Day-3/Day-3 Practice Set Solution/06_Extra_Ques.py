@@ -1,0 +1,1 @@
+'6. Convert a string to uppercase and count the number of uppercase letters.'

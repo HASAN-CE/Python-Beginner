@@ -1,0 +1,1 @@
+'5. Write a program to extract and print only the digits from a string.'
