@@ -1,0 +1,8 @@
+### Strings
+1. Write a program to check if a given string is a palindrome.
+2. Count the number of vowels in a string using Python.
+3. Write a Python function to reverse a given string.
+4. Replace all occurrences of a specific word in a string with another word.
+5. Write a program to extract and print only the digits from a string.
+6. Convert a string to uppercase and count the number of uppercase letters.
+7. Write a program to find the frequency of each character in a string.

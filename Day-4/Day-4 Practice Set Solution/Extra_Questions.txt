@@ -1,0 +1,17 @@
+### List
+1. Write a program to find the largest and smallest elements in a list.
+2. Remove all occurrences of a specific element from a list.
+3. Write a Python program to reverse a list without using the reverse() method.
+4. Sort a list of tuples by the second element of each tuple.
+5. Write a Python program to find the second largest number in a list.
+6. Flatten a nested list in Python.
+7. Write a program to split a list into two lists based on a condition.
+
+##Tuple
+1. Write a Python program to create a tuple with different data types.
+2. Access the 3rd element of a tuple and slice the tuple from index 2 to 5.
+3. Write a Python program to find the index of an item in a tuple.
+4. Check if a specific element exists in a tuple.
+5. Convert a tuple to a list and vice versa.
+6. Concatenate two tuples and sort the resulting tuple.
+7. Write a program to count the number of occurrences of an element in a tuple.

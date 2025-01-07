@@ -1,0 +1,8 @@
+### File
+1. Write a program to read the contents of a file and print them.
+2. Append new data to an existing file in Python.
+3. Write a program to count the number of words in a file.
+4. Write a Python script to copy the contents of one file to another.
+5. Search for a specific string in a file and display the line numbers where it occurs.
+6. Write a Python program to create a file and write user input into it.
+7. Replace all occurrences of a specific word in a file with another word.

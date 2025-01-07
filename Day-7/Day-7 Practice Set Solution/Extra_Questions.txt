@@ -1,0 +1,8 @@
+### Loops
+1. Write a program to print the Fibonacci series up to a given number of terms.
+2. Print the multiplication table of a number using a for loop.
+3. Write a Python program to calculate the sum of all odd numbers up to a given limit.
+4. Write a program to count the number of digits in a given number.
+5. Print all prime numbers between 1 and 100 using a loop.
+6. Write a program to display the factorial of a given number.
+7. Iterate through a list and print only those elements that are divisible by 3.
