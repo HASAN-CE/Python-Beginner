@@ -27,5 +27,5 @@ print(ex[0:])   # Print the entire string
 
 # Skipping values
 d = '''abcdefghijklmnopqrstuvwxyz'''
-print(d[2:12])  # Extract characters from index 2 to 11
-print(d[2:12:2])  # Start from index 2, go till index 11, and skip every second index
+print(d[2:12])  #Extract characters from index 2 to 11
+print(d[2:12:2])  #Start from index 2, go till index 11, and skip every second index

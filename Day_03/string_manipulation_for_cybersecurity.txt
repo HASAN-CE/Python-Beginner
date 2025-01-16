@@ -1,0 +1,131 @@
+String Manipulation Techniques for Cybersecurity
+
+1. Base64 Encoding/Decoding
+---------------------------
+import base64
+
+text = "Hello, CyberSec!"
+encoded_text = base64.b64encode(text.encode()).decode()
+decoded_text = base64.b64decode(encoded_text).decode()
+
+print("Encoded:", encoded_text)
+print("Decoded:", decoded_text)
+
+2. URL Encoding/Decoding
+------------------------
+import urllib.parse
+
+url = "https://example.com/search?query=cyber security"
+encoded_url = urllib.parse.quote(url)
+decoded_url = urllib.parse.unquote(encoded_url)
+
+print("Encoded URL:", encoded_url)
+print("Decoded URL:", decoded_url)
+
+3. Hashing (MD5, SHA)
+---------------------
+import hashlib
+
+text = "password123"
+md5_hash = hashlib.md5(text.encode()).hexdigest()
+sha256_hash = hashlib.sha256(text.encode()).hexdigest()
+
+print("MD5 Hash:", md5_hash)
+print("SHA256 Hash:", sha256_hash)
+
+4. Extracting Emails (Regex)
+----------------------------
+import re
+
+log_data = "User email: hacker@example.com, Admin email: admin@pentest.com"
+emails = re.findall(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", log_data)
+
+print("Extracted Emails:", emails)
+
+5. Extracting IP Addresses (Regex)
+----------------------------------
+log = "Failed login from IP: 192.168.1.100, success from 10.0.0.5"
+ips = re.findall(r"\b(?:\d{1,3}\.){3}\d{1,3}\b", log)
+
+print("Extracted IPs:", ips)
+
+6. XOR Encoding (Obfuscation)
+-----------------------------
+def xor_encrypt(text, key):
+    return ''.join(chr(ord(c) ^ key) for c in text)
+
+def xor_decrypt(cipher, key):
+    return ''.join(chr(ord(c) ^ key) for c in cipher)
+
+message = "secret_data"
+key = 42
+
+encrypted = xor_encrypt(message, key)
+decrypted = xor_decrypt(encrypted, key)
+
+print("Encrypted:", encrypted.encode())
+print("Decrypted:", decrypted)
+
+7. String Splitting (Log Analysis)
+----------------------------------
+log = "192.168.1.10 - - [16/Jan/2025:12:30:15] \"GET /index.html HTTP/1.1\" 200"
+parts = log.split(" ")
+
+print("IP Address:", parts[0])
+
+8. Removing Unwanted Characters (Sanitization)
+----------------------------------------------
+import string
+
+input_data = "DROP TABLE users;--"
+clean_data = input_data.translate(str.maketrans('', '', string.punctuation))
+print("Sanitized Input:", clean_data)
+
+9. String Padding (Used in Cryptography)
+----------------------------------------
+text = "secret"
+padded_text = text.ljust(16, 'X')
+print("Padded Text:", padded_text)
+
+10. Reverse String (Simple Obfuscation)
+---------------------------------------
+text = "malware"
+reversed_text = text[::-1]
+print("Reversed String:", reversed_text)
+
+11. String Case Alteration (Bypassing Filters)
+----------------------------------------------
+text = "Admin"
+lower_case = text.lower()
+upper_case = text.upper()
+
+print("Lower:", lower_case, "Upper:", upper_case)
+
+12. Checking if a String is Base64 Encoded
+------------------------------------------
+import base64
+
+def is_base64(s):
+    try:
+        return base64.b64encode(base64.b64decode(s)) == s.encode()
+    except:
+        return False
+
+encoded_string = base64.b64encode("test123".encode()).decode()
+print("Is Base64 Encoded?", is_base64(encoded_string))
+
+13. Checking for Hex-Encoded Data
+----------------------------------
+import re
+
+hex_string = "48656c6c6f20576f726c64"
+if re.fullmatch(r'[0-9a-fA-F]+', hex_string):
+    print("Hexadecimal detected!")
+
+14. Extracting Domains from URLs
+--------------------------------
+from urllib.parse import urlparse
+
+url = "https://hacker.example.com/path?query=1"
+domain = urlparse(url).netloc
+print("Extracted Domain:", domain)
