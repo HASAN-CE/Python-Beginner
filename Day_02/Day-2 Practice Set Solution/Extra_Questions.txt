@@ -5,4 +5,3 @@
 4. Write a Python program to check the type of a variable using the `type()` function.
 5. Assign multiple values to multiple variables in a single line and print them.
 6. Write a program that shows variable re-assignment with different data types.
-7. Create a program that calculates the compound interest using variables.
