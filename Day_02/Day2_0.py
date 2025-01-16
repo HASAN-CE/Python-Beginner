@@ -2,7 +2,7 @@
 
 # Variables are like containers to store values
 
-# Example
+# Examples
 
 a = 10       # 'a' is an integer
 b = 25.2     # 'b' is a float
