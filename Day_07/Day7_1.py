@@ -5,7 +5,7 @@ while a < 11:  # Loop while the condition is true
     print(a)  # Print the current value of a
     a += 1  # Increment a by 1
 
-# a = a + 1, # a = a + 1 is the condition
+# a = a + 1, # a += 1 is the condition
 
 '''
 Output:

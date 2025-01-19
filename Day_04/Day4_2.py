@@ -2,7 +2,7 @@
 # A tuple is an immutable data type in Python
 
 a = (1, 2, 3, 4, 5)  # Tuples are enclosed in parentheses
-print(type(a))  # Output the type of the tuple
+print(type(a))  # Output the type of  'a' 
 
 # Empty tuple
 b = ()
