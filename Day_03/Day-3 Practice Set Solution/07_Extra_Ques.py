@@ -1,7 +1,7 @@
 'Write a program to find the frequency of each character in a string.'
 
 # Input string
-input_string = "hello world"
+input_string = "hello world why to hello because we can say hello world"
 
 # Create an empty dictionary to store the frequency of each character
 frequency = {}
